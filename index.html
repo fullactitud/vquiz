@@ -8,8 +8,6 @@
 	<link rel="stylesheet" href="./css/bootstrap.min.css"/>
 
 
-
-	
 	<style>
 	  body{
 	  background-image: url('img/bg.jpg');
@@ -53,6 +51,13 @@
 	  .lh{
 	  line-height: 2.0em;
 	  }
+
+
+	  .c2{
+	  text-align: center;
+	  font-size: 1.4em;
+	  line-height: 2.0em;
+	  }
 	  
 	  .si{
 	  color: #005500;
@@ -60,6 +65,7 @@
 	  font-size: 1.4em;
 	  line-height: 2.0em;
 	  }
+	  
 	  .no{
 	  color: #aa0000ff;
 	  text-align: center;
@@ -186,7 +192,7 @@ z-index: 2000;
 
 
   
-  <body onLoad="msn2();">
+  <body onLoad="javascript:msn2();">
 
 	  	<div class="header">
 		  <div class="container" style="overflow-x:hidden;">
@@ -230,7 +236,7 @@ z-index: 2000;
 	  <div style="position: relative; width: 25%; height: 25%; left: 1.0em; top: 0.5em;">
 		<img src="img/ic_vquiz.png" style="width: 4.0em;" title="vQuiz"/>
 	  </div>
-	  <br />
+	  <br /> <br /> <br />
 
 	</div>
  	  
@@ -268,6 +274,10 @@ z-index: 2000;
 		</div>
 	  </div>
 
+
+	  
+
+	  
 	  <br /> <br /><br />
 
 	  
@@ -285,26 +295,36 @@ z-index: 2000;
 
 
 		  <ul class="list-group" style="width: auto;">
-			<li class="list-group-item disabled">Etapa Lista</li>
-			<li class="list-group-item">Implementación de la aplicación Android. &nbsp; <span class="badge badge-danger">Operativa</span><br /> Actualmente esta operativa, el Juego ya cuenta con 25.000  preguntas en el Área de la Salud.</li>
+			<li class="list-group-item disabled">1<sup>ra</sup> Etapa <span class="badge badge-success">Operativa</span></li>
+			<li class="list-group-item">Implementación de la aplicación móvil tipo trivia en Android, como una herramienta para complementar el estudio</li>
+			<li class="list-group-item">Permite generar cuestionarios de selección múltiple desde un Banco de 25.000 preguntas sobre el Área de la Salud</li>
+			<li class="list-group-item">Permite la autoevaluación</li>
+			<li class="list-group-item">Te muestra la respuesta correcta, el comentario y/o la justificación de la respuesta</li>
+			<li class="list-group-item">Genera gráficos del comportamiento del usuario en un tópico</li>
+			<li class="list-group-item">Permite ahorrar tiempo y dinero, mientras es una App amigable con el medio ambiente</li>
 		  </ul>
 		  
 
 		  <br />
 
 		  <ol class="list-group" style="width: auto;">
-			<li class="list-group-item disabled">Etapa en Desarrollo</li>
-			<li class="list-group-item">Publicar la App en Play Store (con un modelo de subscripción). Migrar de Web Server para Socket Server.</li>
-			<li class="list-group-item">Ampliar el Banco de Preguntas.</li>
+			<li class="list-group-item disabled">2<sup>da</sup> Etapa <span class="badge badge-warning">en Desarrollo</span></li>
+			<li class="list-group-item">Publicar la App en Play Store (con un modelo de subscripción)</li>
+			<li class="list-group-item">Implementación de un Socket Server</li>
+			<li class="list-group-item">Permitir compartir los resultados de un tópico con otras personas</li>
+			<li class="list-group-item">Permitir comparar los resultados propios con el resto del mundo</li>
+			<li class="list-group-item">Permitir la aplicación de evaluaciones a distancia</li>
+			<li class="list-group-item">Permitir que un instructor observe en <i>tiempo real</i> el comportamiento de un grupo de alumnos</li>
+			<li class="list-group-item">Ampliar el Banco de Preguntas</li>
 		  </ol>
 
 		  
 
 		  <br />
 		  <ul class="list-group" style="width: auto;">
-			<li class="list-group-item disabled">Etapas futuras</li>
+			<li class="list-group-item disabled">3<sup>ra</sup> Etapa <span class="badge badge-danger">en el futuro</span></li>
 			<li class="list-group-item">Implementar la App en IOS</li>
-			<li class="list-group-item">Trasformar la experiencia de usuario para que se asemeje más a un vídeo juego y/o Realidad Virtual.</li>
+			<li class="list-group-item">Trasformar la experiencia de usuario para que se asemeje más a un vídeo juego con Realidad Virtual</li>
 		  </ul>
 		  
 
@@ -313,14 +333,14 @@ z-index: 2000;
 
 
 	  <br /><br /><br />
-	  <h5 class="list-group-item active"><strong>¿Que Requerimos?</strong></h5>
+	  <h5 class="list-group-item active"><strong>¿Qué Requerimos?</strong></h5>
 	  <br />
 	  
 
 	  
 	  <div class="row">
 		<div class="col-sm-12">
-		  <p>Para continuar con el desarrollo del proyecto <strong>estamos en la búsqueda de financiación</strong>, para ello estamos permitiendo el uso <i>pre-lanzamiento</i> de la app, por una subscripción de un año. Así como establecer un canal de comunicación de <b>manera exclusiva</b> para sugerencias y comentarios sobre la app.</p>
+		  <p>Para continuar con el desarrollo del proyecto <strong>estamos en la búsqueda de financiación</strong>, para ello estamos permitiendo el uso <i>pre-lanzamiento</i> de la app, por una subscripción de un año.</p>
 		</div>
 	  </div>
 	  
@@ -328,7 +348,7 @@ z-index: 2000;
 
 
 	  <br /><br />
-	  <h5 class="list-group-item active"><strong>Cantidad de Preguntas Agregadas</strong></h5>
+	  <h5 class="list-group-item active"><strong>Cantidad de Preguntas Agregadas</strong> <span style="font-size: 0.5em;" title="Enero, 2021">(Enero, 2021)</span></h5>
 	  <br />
 
 	  <div class="row">
@@ -450,7 +470,7 @@ z-index: 2000;
 				<td class="c alert-warning h"><img src="./img/si.png" class="noi"/></td>
 				<td class="c alert-success h"><img src="./img/si.png" class="noi"/></td>
 				<td class="c alert-info h"><img src="./img/si.png" class="noi"/></td>
-				<td class="c alert-danger"><img src="./img/si.png" class="noi"/></td>
+				<td class="c2 alert-danger"><span class="badge badge-success">Si</span></td>
 			  </tr>
 
 			  <tr class="b1 over">
@@ -458,7 +478,7 @@ z-index: 2000;
 				<td class="c alert-warning h"><img src="./img/no.png" class="noi"/></td>
 				<td class="c alert-success h"><img src="./img/no.png" class="noi"/></td>
 				<td class="c alert-info h"><img src="./img/si.png" class="noi"/></td>
-				<td class="c alert-danger"><img src="./img/si.png" class="noi"/></td>
+				<td class="c2 alert-danger"><span class="badge badge-success">Si</span></td>
 			  </tr>
 
 			  <tr class="b1 over h">
@@ -466,7 +486,7 @@ z-index: 2000;
 				<td class="c alert-warning h"><img src="./img/no.png" class="noi"/></td>
 				<td class="c alert-success h"><img src="./img/no.png" class="noi"/></td>	
 				<td class="c alert-info h"><img src="./img/si.png" class="noi"/></td>
-				<td class="c alert-danger"><img src="./img/si.png" class="noi"/></td>
+				<td class="c2 alert-danger"><img src="./img/si.png" class="noi"/></td>
 			  </tr>
 			 
 
@@ -476,7 +496,7 @@ z-index: 2000;
 				<td class="c alert-warning h"><img src="./img/no.png" class="noi"/></td>
 				<td class="c alert-success h"><img src="./img/no.png" class="noi"/></td>
 				<td class="c alert-info h"><img src="./img/no.png" class="noi"/></td>
-				<td class="c alert-danger"><img src="./img/si.png" class="noi"/></td>
+				<td class="c2 alert-danger"><img src="./img/si.png" class="noi"/></td>
 			  </tr>
 
 			  
@@ -488,7 +508,7 @@ z-index: 2000;
 				<td class="c alert-warning h"><img src="./img/no.png" class="noi"/></td>
 				<td class="c alert-success h"><img src="./img/no.png" class="noi"/></td>
 				<td class="c alert-info h"><img src="./img/no.png" class="noi"/></td>
-				<td class="c alert-danger"><img src="./img/si.png" class="noi"/></td>
+				<td class="c2 alert-danger"><span class="badge badge-success">Si</span></td>
 			  </tr>
 
 
@@ -508,16 +528,16 @@ z-index: 2000;
 				<td class="" >Precio (en USD)</td>
 				<td class="c alert-warning h">-</td>
 				<td class="c alert-success h">1</td>
-				<td class="c alert-info h">5</td>
-				<td class="c alert-danger">20</td>
+				<td class="c2 alert-info h">5</td>
+				<td class="c2 alert-danger">20</td>
 			  </tr>
 
 			  <tr class="b1 over">
 				<td class="" >Duración de la subscripción (en días)</td>
-				<td class="c alert-warning h">30</td>				
-				<td class="c alert-success h">365</td>
-				<td class="c alert-info h">365</td>
-				<td class="c alert-danger">365</td>
+				<td class="c alert-warning h">7</td>	
+				<td class="c alert-success h">180</td>
+				<td class="c alert-info h">180</td>
+				<td class="c2 alert-danger">365</td>
 			  </tr>
 
 <!--
@@ -577,7 +597,7 @@ z-index: 2000;
 
 	<div class="footer" style="text-align: center;">
 	  <div class="row">
-		<div class="col-sm-12" > App desarrollada por <strong><a href="mailto:xfreelance@gmail.com">Actitud c.a.</a></strong></div>
+		<div class="col-sm-12" > App desarrollada por <strong><a href="mailto:actitud.ca@gmail.com">Actitud c.a.</a></strong></div>
 	  </div>
 	  <div class="row">
 		<div class="col-sm-12" >2021 - Mérida, Venezuela</div>
