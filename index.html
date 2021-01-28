@@ -177,12 +177,11 @@ z-index: 2000;
 	  vct.push("<strong>¿Te imaginas?</strong> Tener un nivel de preparación de talla mundial.");
 	  vct.push("<strong>¿Te imaginas?</strong> A los profesionales de la Salud, con una alta preparación en todos los rincones del Mundo.");
 	  vct.push("<strong>¿Te imaginas?</strong> Educación de Calidad a bajo costo.");
-	  
 	  let pos = Math.floor(Math.random()*(vct.length -0));
 	  document.getElementById('mq').innerHTML = vct[pos];
 	  }
 	  /*
-	  document.getElementById('mensaje').innerHTML = vct[pos];	  
+	  document.getElementById('mensaje').innerHTML = vct[pos];
 	  $('#myModal').modal();
 	    onLoad="msn();"
 	   */
@@ -192,15 +191,9 @@ z-index: 2000;
 
 
   
-  <body onLoad="javascript:msn2();">
+  <body onLoad="javascript:">
 
-	  	<div class="header">
-		  <div class="container" style="overflow-x:hidden;">
-	  		<div style="position: relative; margin: none; width: 100%;">
-			  <marquee id="mq"><strong>¿Te imaginas?</strong> No volver a comprar viejos exámenes para estudiar.</marquee>
-			</div>
-		  </div>
-		</div>
+
 
 
 	<!-- Modal -->
@@ -226,6 +219,14 @@ z-index: 2000;
 	
 	<div class="container" style="overflow-x:hidden;">
 
+	  <div class="page-header" style="text-align: center;">
+		<span style="font-size: 0.75em; font-weight:700; color: #9999ff;">Una App para generar y resolver cuestionarios</span>
+		<h3> 
+		  <img src="img/ic_vquiz.png" style="width: 1.5em;" title="vQuiz" alt="vQuiz"/>
+		  <span class="vquiz">vQuiz</span>
+		</h3>
+	  </div>
+	  
 	<div class="jumbotron" style="background-image: url('img/bgtop.png');
 								  background-repeat: no-repeat;
 								  -webkit-background-size: 100% 100%;
@@ -233,19 +234,41 @@ z-index: 2000;
 								  background-position: center center;
 								  text-align: left;
 								  ">
-	  <div style="position: relative; width: 25%; height: 25%; left: 1.0em; top: 0.5em;">
-		<img src="img/ic_vquiz.png" style="width: 4.0em;" title="vQuiz"/>
-	  </div>
+	 <br /> <br />  <br /> 
 	  <br /> <br /> <br />
 
 	</div>
  	  
 
+	  	<div class="page-header">
+		  <div class="container" style="overflow-x:hidden;">
+	  		<div style="position: relative; margin: none; width: 100%;">
+			  <marquee id="mq" style="font-size: 0.8em;">
+				<span style="color: #dd0000;"><strong>¿Te imaginas?</strong> No volver a comprar viejos exámenes para estudiar.</span>
+				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<span style="color: #00aa00;"><strong>¿Te imaginas?</strong> Siempre contar con el material necesario para estudiar.</span>
+				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<span style="color: #0000aa;"><strong>¿Te imaginas?</strong> No volver a gastar papel innecesariamente.</span>
+				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<span style="color: #dddd00;"><strong>¿Te imaginas?</strong> Conocer si estas realmente preparad@ para un examen.</span>
+				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<span style="color: #00ffff;"><strong>¿Te imaginas?</strong> Poder llevar el material de estudios en tu bolsillo.</span>
+				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<span style="color: #ff00ff;"><strong>¿Te imaginas?</strong> Poder comparar tus resultados con el resto del Mundo.</span>
+				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<span style="color: #ff8800;"><strong>¿Te imaginas?</strong> Tener un nivel de preparación de talla mundial.</span>
+				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<span style="color: #ff0088;"><strong>¿Te imaginas?</strong> A los profesionales de la Salud, con una alta preparación en todos los rincones del Mundo.</span>
+				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<span style="color: #88ff00;"><strong>¿Te imaginas?</strong> Educación de Calidad a bajo costo.</span>
+				
+			  </marquee>
+			</div>
+		  </div>
+		</div>
+	
 	  
-	  <div class="page-header">
-		<h3> <span class="vquiz">vQuiz</span></h3>
-		<br />
-	  </div>	  
+	  
 	  
 
 	  
@@ -254,8 +277,8 @@ z-index: 2000;
 	  
 	  <div class="row">
 		<div class="col-sm-12">
-		  <p><span class="vquiz">vQuiz</span> es una aplicación Android que genera cuestionarios con preguntas de selección múltiple, en su primera etapa sobre tópicos de la Salud. Es un Juego Educativo, ideal para estudiantes de medicina, enfermería, u otras carreras en el área de la salud.</p>
-		  <p>Con más de 25.000 preguntas, que equivalen a cientos de exámenes, disponibles desde tu dispositivo, en todo momento. Que te garantizarán <i>horas y horas</i> de preparación y entretenimiento. Al usar <span class="vquiz">vQuiz</span> no necesitarás sacar copias de viejos exámenes, con lo que ahorrarás dinero, y cuidaras el medio ambiente.</p>
+		  <p><span class="vquiz">vQuiz</span> es una app (Android) para generar cuestionarios con preguntas de selección múltiple, en su primera etapa sobre tópicos de la Salud. Es un Juego Educativo, ideal para estudiantes de medicina, enfermería, u otras carreras en el área de la salud.</p>
+		  <p>Con más de 25.000 preguntas, que equivalen a cientos de exámenes, disponibles desde tu dispositivo móvil, en todo momento. Que te garantizarán <i>horas y horas</i> de preparación y entretenimiento. Al usar <span class="vquiz">vQuiz</span> no necesitarás sacar copias de viejos exámenes, con lo que ahorrarás dinero, y cuidaras el medio ambiente.</p>
 		</div>
 	  </div>
 
@@ -276,11 +299,7 @@ z-index: 2000;
 
 
 	  
-
-	  
 	  <br /> <br /><br />
-
-	  
 
 	  
 	  
@@ -295,12 +314,12 @@ z-index: 2000;
 
 
 		  <ul class="list-group" style="width: auto;">
-			<li class="list-group-item disabled">1<sup>ra</sup> Etapa <span class="badge badge-success">Operativa</span></li>
+			<li class="list-group-item disabled">1<sup>ra</sup> Etapa <span class="badge badge-success">Operativa en una versión <i>Beta</i></span></li>
 			<li class="list-group-item">Implementación de la aplicación móvil tipo trivia en Android, como una herramienta para complementar el estudio</li>
 			<li class="list-group-item">Permite generar cuestionarios de selección múltiple desde un Banco de 25.000 preguntas sobre el Área de la Salud</li>
 			<li class="list-group-item">Permite la autoevaluación</li>
-			<li class="list-group-item">Te muestra la respuesta correcta, el comentario y/o la justificación de la respuesta</li>
-			<li class="list-group-item">Genera gráficos del comportamiento del usuario en un tópico</li>
+			<li class="list-group-item">Califica el cuestionario, muestra la respuesta correcta, el comentario y/o la justificación de la respuesta</li>
+			<li class="list-group-item">Genera gráficos del comportamiento del usuario por cada tópico</li>
 			<li class="list-group-item">Permite ahorrar tiempo y dinero, mientras es una App amigable con el medio ambiente</li>
 		  </ul>
 		  
@@ -308,23 +327,23 @@ z-index: 2000;
 		  <br />
 
 		  <ol class="list-group" style="width: auto;">
-			<li class="list-group-item disabled">2<sup>da</sup> Etapa <span class="badge badge-warning">en Desarrollo</span></li>
-			<li class="list-group-item">Publicar la App en Play Store (con un modelo de subscripción)</li>
+			<li class="list-group-item disabled">2<sup>da</sup> Etapa <span class="badge badge-warning">en lo que estos trabajando</span></li>
 			<li class="list-group-item">Implementación de un Socket Server</li>
-			<li class="list-group-item">Permitir compartir los resultados de un tópico con otras personas</li>
+			<li class="list-group-item">Permitir compartir los resultados de un tópico con otros usuarios</li>
 			<li class="list-group-item">Permitir comparar los resultados propios con el resto del mundo</li>
 			<li class="list-group-item">Permitir la aplicación de evaluaciones a distancia</li>
 			<li class="list-group-item">Permitir que un instructor observe en <i>tiempo real</i> el comportamiento de un grupo de alumnos</li>
 			<li class="list-group-item">Ampliar el Banco de Preguntas</li>
+			<li class="list-group-item">Publicar la App en Play Store, con un modelo de subscripción</li>
 		  </ol>
 
 		  
 
 		  <br />
 		  <ul class="list-group" style="width: auto;">
-			<li class="list-group-item disabled">3<sup>ra</sup> Etapa <span class="badge badge-danger">en el futuro</span></li>
+			<li class="list-group-item disabled">3<sup>ra</sup> Etapa <span class="badge badge-danger">en estado de Planificación</span></li>
 			<li class="list-group-item">Implementar la App en IOS</li>
-			<li class="list-group-item">Trasformar la experiencia de usuario para que se asemeje más a un vídeo juego con Realidad Virtual</li>
+			<li class="list-group-item">Trasformar la experiencia de usuario para que se asemeje más a un vídeo juego</li>
 		  </ul>
 		  
 
@@ -335,17 +354,27 @@ z-index: 2000;
 	  <br /><br /><br />
 	  <h5 class="list-group-item active"><strong>¿Qué Requerimos?</strong></h5>
 	  <br />
-	  
-
-	  
 	  <div class="row">
 		<div class="col-sm-12">
-		  <p>Para continuar con el desarrollo del proyecto <strong>estamos en la búsqueda de financiación</strong>, para ello estamos permitiendo el uso <i>pre-lanzamiento</i> de la app, por una subscripción de un año.</p>
+		  <p>Para continuar con el desarrollo del proyecto <strong>estamos en la búsqueda de financiación</strong>, para ello estamos permitiendo el uso <i>pre-lanzamiento</i> de la App, por medio de una subscripción.</p>
 		</div>
 	  </div>
 	  
 	  
 
+	  <br /><br />
+	  <h5 class="list-group-item active"><strong>Plan de Subscripción Pre-lanzamiento</strong></h5>
+	  <br />
+	  <div class="row">
+		<div class="col-sm-12">
+		  <p>Acceso a generar cuestionarios desde el Banco de Preguntas, con más de <b>25.000</b> preguntas distribuidas por diferentes tópicos; acceso a los resultados y gráficos de los cuestionarios resueltos; acceso a la respuesta correcta, y acceso al comentario, o a la justificación de la respuesta. </p><p>
+		  Durante 365 días por una colaboración de <a href="mailto:actitud.ca@gmail.com" title="Enviar Correo Electrónico"><span class="badge badge-success" style="font-size: 1.2em;">USD 20<span></a></p>
+		</div>
+	  </div>
+
+
+
+	  
 
 	  <br /><br />
 	  <h5 class="list-group-item active"><strong>Cantidad de Preguntas Agregadas</strong> <span style="font-size: 0.5em;" title="Enero, 2021">(Enero, 2021)</span></h5>
@@ -430,7 +459,11 @@ z-index: 2000;
 	  </div>
 
 
+	  
+
 	  <br /><br />
+	  <h5 class="list-group-item active"><strong>Ejemplos de Pantallas</strong></h5>
+	  <br />
 	  
 
 	  <div class="row">
@@ -443,34 +476,30 @@ z-index: 2000;
 	  </div>	
 
 
-	  <br /><br /><br /><br />
-	  <h5 class="list-group-item active"><strong>Plan de Subscripción</strong></h5>
-	  <br />
-	  
+	  <br /><br />
 
-
-	  
-	  <div class="row">
+		  
+	  <div class="row h">
 		<div class="col-sm-12">
-		  <table class="table table-striped table-hover table-responsive" style="font-size: 0.75em;">
+		  <table class="table table-striped table-hover table-responsive" style="font-size: 1.0em;">
 			<tbody>
 			  <tr class="over">
-				<td class=""><strong>Subscripción</strong></td>
+				<td class="h"><strong>Subscripción</strong></td>
 				<td class="c alert-warning h"><strong>Libre</strong></td>
 				<td class="c alert-success h"><strong>Mínima</strong></td>
 				<td class="c alert-info h"><strong>Básica</strong></td>
-				<td class="c alert-danger"><strong>Prelanzamiento</strong></td>
+				<td class="c alert-danger h"><strong>Prelanzamiento</strong></td>
 			  </tr>
 
 
 
 			  <tr class="b1 over">
-				<td class="" ><p>Generar cuestionarios desde el Banco de Preguntas, <br />con más de <b>25.000</b> preguntas distribuidas por diferentes tópicos</p>
+				<td class="" ><p>Generar cuestionarios desde el Banco de Preguntas, con más de <b>25.000</b> preguntas distribuidas por diferentes tópicos</p>
 				</td>
 				<td class="c alert-warning h"><img src="./img/si.png" class="noi"/></td>
 				<td class="c alert-success h"><img src="./img/si.png" class="noi"/></td>
 				<td class="c alert-info h"><img src="./img/si.png" class="noi"/></td>
-				<td class="c2 alert-danger"><span class="badge badge-success">Si</span></td>
+				<td class="c2 alert-danger h"><span class="badge badge-success">Si</span></td>
 			  </tr>
 
 			  <tr class="b1 over">
@@ -478,7 +507,7 @@ z-index: 2000;
 				<td class="c alert-warning h"><img src="./img/no.png" class="noi"/></td>
 				<td class="c alert-success h"><img src="./img/no.png" class="noi"/></td>
 				<td class="c alert-info h"><img src="./img/si.png" class="noi"/></td>
-				<td class="c2 alert-danger"><span class="badge badge-success">Si</span></td>
+				<td class="c2 alert-danger h"><span class="badge badge-success">Si</span></td>
 			  </tr>
 
 			  <tr class="b1 over h">
@@ -486,7 +515,7 @@ z-index: 2000;
 				<td class="c alert-warning h"><img src="./img/no.png" class="noi"/></td>
 				<td class="c alert-success h"><img src="./img/no.png" class="noi"/></td>	
 				<td class="c alert-info h"><img src="./img/si.png" class="noi"/></td>
-				<td class="c2 alert-danger"><img src="./img/si.png" class="noi"/></td>
+				<td class="c2 alert-danger h"><img src="./img/si.png" class="noi"/></td>
 			  </tr>
 			 
 
@@ -503,12 +532,12 @@ z-index: 2000;
 			  
 			  <tr class="b1 over">
 				<td class="" ><p>Acceso a <strong>la respuesta correcta</strong>
-				  <br/>Y acceso al comentario, o a la justificación de la respuesta</p>
+				  , y acceso al comentario, o a la justificación de la respuesta</p>
 				</td>
 				<td class="c alert-warning h"><img src="./img/no.png" class="noi"/></td>
 				<td class="c alert-success h"><img src="./img/no.png" class="noi"/></td>
 				<td class="c alert-info h"><img src="./img/no.png" class="noi"/></td>
-				<td class="c2 alert-danger"><span class="badge badge-success">Si</span></td>
+				<td class="c2 alert-danger h"><span class="badge badge-success">Si</span></td>
 			  </tr>
 
 
@@ -524,20 +553,20 @@ z-index: 2000;
 			  </tr>
 
 
-			  <tr class="b1 over">
+			  <tr class="b1 over h">
 				<td class="" >Precio (en USD)</td>
 				<td class="c alert-warning h">-</td>
 				<td class="c alert-success h">1</td>
 				<td class="c2 alert-info h">5</td>
-				<td class="c2 alert-danger">20</td>
+				<td class="c2 alert-danger h">20</td>
 			  </tr>
 
 			  <tr class="b1 over">
-				<td class="" >Duración de la subscripción (en días)</td>
+				<td class="" >Durante 365 días por una colaboración de <span class="badge badge-success" style="font-size: 1.2em;">USD 20<span></td>
 				<td class="c alert-warning h">7</td>	
 				<td class="c alert-success h">180</td>
 				<td class="c alert-info h">180</td>
-				<td class="c2 alert-danger">365</td>
+				<td class="c2 alert-danger h"></td>
 			  </tr>
 
 <!--
@@ -574,7 +603,7 @@ z-index: 2000;
 
 	  
 
-	  <br /><br />
+
 
 
 	  <div class="row">
